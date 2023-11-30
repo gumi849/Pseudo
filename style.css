@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFAF3;
+    width: 100%;
+    padding-left: 180px;
+    padding-top: 30px;
+}
+
+header {
+    width: 30%;
+    margin-bottom: 140px;
+    border-bottom: 1px solid #C08D5D;
+    padding-bottom: 25px;
+}
+nav>a {
+    display: inline-block;
+    margin-left:20px;
+    margin-right:20px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+nav>img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right:50px;
+
+}
+
+.hero>h4 {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+    display: inline-block;
+    vertical-align: middle;
+    letter-spacing:2px;
+    font-family: 'Yeseva One';
+}
+
+.hero>img {
+    vertical-align: middle;
+}
+main{
+    width: 100%;
+}
+.hero>h1 {
+    vertical-align: middle;
+    font-weight: 400;
+    font-size: 70px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing:2px;
+    font-family: 'Yeseva One';
+}
+.hero>p {
+    font-size: 18px;
+    font-family: 'Open Sans';
+
+    margin-top: 10px;
+}
+
+.more {
+    display: inline-block;
+    background-color: #FFFAF3;
+    color: #000;
+    text-decoration: none;
+    padding-left: 10px;
+    border-color: #C08D5D;
+    border-style: solid;
+    margin-top: 140px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing:2px;
+}
+
+.more:after {
+    content: url("./Vector\ 2.svg");;
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    background-color: #C08D5D;
+    line-height: 64px;
+    text-align: center;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.image {
+    background-image: url("./Image\ 1.png");
+    height: 878px;
+    margin-bottom: 200px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heroimage {
+display: block;
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+
+
+.mouse {
+    border: none;
+    background-color: #FFFAF3;
+    display: block;
+    text-align: center;
+    width:34px;
+    height: 71px;
+    outline: 0;
+    margin-left: 43%;
+    margin-right: auto;
+    margin-bottom: 60px;
+
+}
+
+.left {
+  
+    display: inline-block;
+    width: 35%;
+    vertical-align: top;
+}
+
+.right {
+  
+    vertical-align: top;
+}
+.right>.image{
+  
+    position: absolute;
+    top: 0;
+    width: 20%;
+    right: 0;
+}
