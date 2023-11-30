@@ -74,7 +74,7 @@ main{
     padding-left: 10px;
     border-color: #C08D5D;
     border-style: solid;
-    margin-top: 140px;
+    margin-top: 130px;
     text-align: center;
     font-weight: 400;
     font-size: 20px;
@@ -100,7 +100,6 @@ main{
     margin-bottom: 200px;
     position: absolute;
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .heroimage {
@@ -130,16 +129,16 @@ display: block;
     display: inline-block;
     width: 35%;
     vertical-align: top;
+    margin-right: 30px;
 }
 
 .right {
-  
-    vertical-align: top;
+    margin-left: 45%;
 }
 .right>.image{
-  
-    position: absolute;
+  display: block;
     top: 0;
-    width: 20%;
-    right: 0;
+    width: 698px;
+    height: 878px;
+
 }
