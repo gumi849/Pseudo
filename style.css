@@ -17,10 +17,11 @@ header {
     border-bottom: 1px solid #C08D5D;
     padding-bottom: 25px;
 }
+
 nav>a {
     display: inline-block;
-    margin-left:20px;
-    margin-right:20px;
+    margin-left: 20px;
+    margin-right: 20px;
     text-decoration: none;
     color: #000000;
     font-weight: 400;
@@ -30,7 +31,7 @@ nav>a {
 nav>img {
     display: inline-block;
     vertical-align: middle;
-    margin-right:50px;
+    margin-right: 50px;
 
 }
 
@@ -40,25 +41,28 @@ nav>img {
     line-height: 57px;
     display: inline-block;
     vertical-align: middle;
-    letter-spacing:2px;
+    letter-spacing: 2px;
     font-family: 'Yeseva One';
 }
 
 .hero>img {
     vertical-align: middle;
 }
-main{
+
+main {
     width: 100%;
 }
+
 .hero>h1 {
     vertical-align: middle;
     font-weight: 400;
     font-size: 70px;
     text-transform: uppercase;
     margin-bottom: 20px;
-    letter-spacing:2px;
+    letter-spacing: 2px;
     font-family: 'Yeseva One';
 }
+
 .hero>p {
     font-size: 18px;
     font-family: 'Open Sans';
@@ -79,11 +83,12 @@ main{
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
-    letter-spacing:2px;
+    letter-spacing: 2px;
 }
 
 .more:after {
-    content: url("./Vector\ 2.svg");;
+    content: url("./Vector\ 2.svg");
+    ;
     display: inline-block;
     width: 64px;
     height: 64px;
@@ -103,7 +108,7 @@ main{
 }
 
 .heroimage {
-display: block;
+    display: block;
     width: 100%;
     padding-bottom: 60px;
 }
@@ -115,7 +120,7 @@ display: block;
     background-color: #FFFAF3;
     display: block;
     text-align: center;
-    width:34px;
+    width: 34px;
     height: 71px;
     outline: 0;
     margin-left: 43%;
@@ -125,7 +130,7 @@ display: block;
 }
 
 .left {
-  
+
     display: inline-block;
     width: 35%;
     vertical-align: top;
@@ -135,8 +140,9 @@ display: block;
 .right {
     margin-left: 45%;
 }
-.right>.image{
-  display: block;
+
+.right>.image {
+    display: block;
     top: 0;
     width: 698px;
     height: 878px;
